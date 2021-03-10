@@ -1,0 +1,15 @@
+# ignore state files for now
+*.tfstate
+*.tfstate.backup
+
+# ignore module directory
+.terraform/
+.terraform.lock.hcl
+
+# ignore credentials
+/credentials.tf
+/variables.tf
+
+*.plan
+*.tfvars
+*.pem
